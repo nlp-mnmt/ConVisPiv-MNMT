@@ -7,7 +7,7 @@ torch==1.8.1
 # dataset
 txt data we employ the data set [Multi30K dataset](http://www.statmt.org/wmt18/multimodal-task.html), then use [BPE](https://github.com/rsennrich/subword-nmt) to preprocess the raw data(dataset/data/task1/tok/). Image features are extracted through the pre-trained Resnet-101.  
 The data-raw folder above is the data processed by BPE.
-##### BPE (learn_joint_bpe_and_vocab.py and apply_bpe.py)
+# BPE (learn_joint_bpe_and_vocab.py and apply_bpe.py)
 English, German, French use BPE participle separately.   
 # ConVisPiv-MNMT Quickstart
 Step 1: bash data-preprocess.sh Then add the pre-trained Resnet-101 image feature to $DATA_DIR
